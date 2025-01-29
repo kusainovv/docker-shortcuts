@@ -6,7 +6,7 @@ This is a repository for Docker shortcuts , so no magic
 
 ### Remove all Docker containers
 ```bash
-docker rm -f $(docker ps -a -q)
+docker rm -f $(docker ps -aq)
 ```
 
 ### Remove all Docker images
